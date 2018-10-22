@@ -19,19 +19,22 @@
            VerticalOptions="CenterAndExpand"/>
         </StackLayout>
         <Grid>
+            
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-           
-            <Grid.RowDefinitions>
-                <RowDefinition Height="2*"/>
-                <RowDefinition Height="2*"/>
-            </Grid.RowDefinitions>
 
-            <Button Grid.Column="0" Grid.Row="0" Text="About Me"></Button>
-            <Button Grid.Column="1" Grid.Row="1" Text="My Skills"></Button>
-            <Button Grid.Column="0" Grid.Row="1" Text="Contact Me"></Button>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <Button Clicked="Button_Clicked" Grid.Column="1" Grid.Row="0" Text="About Me"></Button>
+            <Button Clicked="Button_Clicked_1" Grid.Column="1" Grid.Row="1" Text="My Skills"></Button>
+            <Button Clicked="Button_Clicked_2" Grid.Column="1" Grid.Row="2" Text="Contact Me"></Button>
+            
         </Grid>
     </StackLayout>
 </ContentPage>
