@@ -17,9 +17,9 @@ namespace JAMA
 			InitializeComponent ();
 		}
 
-        private void Button_OnClicked (object sender, Eventargs e)
+        private void Button_Clicked_ContactMe(object sender, EventArgs e)
         {
-            DisplayAlert("Success!","Your Message Has Been Sent!");
+            DisplayAlert("Success!","Your Message Has Been Sent!","Ok");
         }
 	}
 }

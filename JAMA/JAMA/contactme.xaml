@@ -28,7 +28,7 @@
                 <Button Text = "Send/Submit"
                         BackgroundColor = "Purple"
                         TextColor = "White"
-                        Clicked = "Button_OnClicked"/>
+                        Clicked = "Button_Clicked_ContactMe"/>
 
             </StackLayout>
         </ScrollView>
