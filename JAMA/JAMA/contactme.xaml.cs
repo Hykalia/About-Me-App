@@ -16,5 +16,10 @@ namespace JAMA
 		{
 			InitializeComponent ();
 		}
+
+        private void Button_OnClicked (object sender, Eventargs e)
+        {
+            DisplayAlert("Success!","Your Message Has Been Sent!");
+        }
 	}
 }

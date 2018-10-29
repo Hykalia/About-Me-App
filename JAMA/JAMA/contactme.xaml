@@ -3,10 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JAMA.contactme">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout
+            Padding = "20"
+            Spacing = "20">
+            <Label Text="Contact Me"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize = "20"
+                   FontAttributes = "Bold"
+                   TextColor = "White"/>
+            <BoxView BackgroundColor = "Green"
+                     HeightRequest = "150"
+                     WidthRequest = "100"/>
+            <Entry Placeholder = "Name"/>
+            
+            <Entry Placeholder = "E-Mail"/>
+
+                <Label Text = "Please Enter Your Message on the Line Below"
+                       FontSize = "12"
+                       TextColor = "Gray"/>
+                
+                <Entry Placeholder = ""/>
+                
+                <Button Text = "Send/Submit"
+                        BackgroundColor = "Purple"
+                        TextColor = "White"
+                        Clicked = "Button_OnClicked"/>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
