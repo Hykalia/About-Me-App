@@ -34,9 +34,12 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             
-            <Button Clicked="Button_Clicked" Grid.Column="1" Grid.Row="0" Text="About Me"></Button>
-            <Button Clicked="Button_Clicked_1" Grid.Column="1" Grid.Row="1" Text="My Skills"></Button>
-            <Button Clicked="Button_Clicked_2" Grid.Column="1" Grid.Row="2" Text="Contact Me"></Button>
+            <Button Clicked="Button_Clicked" Grid.Column="1" Grid.Row="0" Text="About Me"
+                    BackgroundColor= "Red"></Button>
+            <Button Clicked="Button_Clicked_1" Grid.Column="1" Grid.Row="1" Text="My Skills"
+                    BackgroundColor= "Blue"></Button>
+            <Button Clicked="Button_Clicked_2" Grid.Column="1" Grid.Row="2" Text="Contact Me"
+                    BackgroundColor= "Green"></Button>
             
         </Grid>
     </StackLayout>
