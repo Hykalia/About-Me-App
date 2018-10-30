@@ -12,9 +12,9 @@
                    FontSize = "20"
                    FontAttributes = "Bold"
                    TextColor = "White"/>
-            <BoxView BackgroundColor = "Green"
-                     HeightRequest = "150"
-                     WidthRequest = "100"/>
+            <BoxView BackgroundColor = "ForestGreen"
+                     HeightRequest = "50"
+                     WidthRequest = "150"/>
             <Entry Placeholder = "Name"/>
             
             <Entry Placeholder = "E-Mail"/>

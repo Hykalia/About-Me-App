@@ -15,6 +15,9 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand"/>
             <Label Text="About Me App - Jonathan Adamson"
+                   TextColor= "White"
+                   FontAttributes = "Bold"
+                   FontSize = "20"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand"/>
         </StackLayout>
