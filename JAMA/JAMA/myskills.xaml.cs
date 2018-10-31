@@ -12,9 +12,12 @@ namespace JAMA
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class myskills : ContentPage
 	{
+        public List<string> Skills { get; set; }
 		public myskills ()
 		{
 			InitializeComponent ();
+            this.Skills = new List<string>();
 		}
 	}
+}
 }

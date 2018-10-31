@@ -3,10 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JAMA.myskills">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"/>
+        <StackLayout Padding = "70"
+                     Spacing = "20">
+            <Label Text = "My Skills" 
+                HorizontalOptions = "Center"
+                   TextColor = "White"
+                   FontAttributes = "Bold"/>
+            <Entry x:Name = "Skills"/>
+            <Label Text = "Minecraft - I'm VERY good at minecraft... Don't laugh at me..." 
+                HorizontalOptions = "CenterAndExpand"
+                   FontSize="12"
+                   TextColor = "Gray"
+                   FontAttributes = "Bold"/>
+            <Label Text = "Rythme Games - I'm pretty good at hitting the notes properly." 
+                HorizontalOptions = "CenterAndExpand"
+                   FontSize="12"
+                   TextColor = "Gray"
+                   FontAttributes = "Bold"/>
+            <Label Text = "Running - I to run for Pitt State University. Running is fun..." 
+                HorizontalOptions = "CenterAndExpand"
+                   FontSize="12"
+                   TextColor = "Gray"
+                   FontAttributes = "Bold"/>
+            <Label Text = "Editing Music - I can make music sound fresh and crispy. " 
+                HorizontalOptions = "CenterAndExpand"
+                   FontSize="12"
+                   TextColor = "Gray"
+                   FontAttributes = "Bold"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
